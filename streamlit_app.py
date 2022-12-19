@@ -15,4 +15,5 @@ sl.text('🐔Hard-Boiled Free-Range Egg')
 sl.text('🥑🍞 Avocado Toast')
 
 sl.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+fruits_selected
 sl.dataframe(fruits_to_show)
