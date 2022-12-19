@@ -1,3 +1,4 @@
-import streamlit
+import streamlit as sl
 
-streamlit.title('My Parents New Healthy Diner')
+sl.title('My Parents New Healthy Diner')
+sl.text('Sam is the best')
