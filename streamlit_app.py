@@ -22,3 +22,8 @@ import requests
 sl.header('Fruityvice Fruit Advice!')
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
 sl.text(fruityvice_response.json())
+
+# normalize json file
+fruityvice_normalized = pd.json_normalize(fruityvice_response.json())
+# show data 
+sl.dataframe(fruityvice_normalized)
