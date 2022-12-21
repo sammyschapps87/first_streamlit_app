@@ -19,5 +19,6 @@ sl.dataframe(fruits_to_show)
 
 
 import requests
+sl.header('Fruityvice Fruit Advice!')
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-sl.text(fruityvice_response)
+sl.text(fruityvice_response.json())
